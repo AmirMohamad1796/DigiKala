@@ -1,0 +1,99 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="8dp"
+    android:background="@android:color/white"
+    android:elevation="4dp"
+    android:orientation="horizontal"
+    android:padding="16dp">
+
+    <!-- عنوان محصول -->
+
+    <!-- قیمت محصول -->
+
+    <!-- ورودی تعداد -->
+
+    <!-- دکمه حذف -->
+
+    <!-- دکمه تایید -->
+
+    <ImageView
+        android:id="@+id/cartProductImage"
+        android:layout_width="176dp"
+        android:layout_height="198dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/cartProductTitle"
+        android:layout_width="209dp"
+        android:layout_height="57dp"
+        android:fontFamily="@font/pb"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/cartProductImage"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/cartProductPrice"
+        android:layout_width="188dp"
+        android:layout_height="30dp"
+        android:fontFamily="@font/pb"
+        android:textColor="#FF5722"
+        android:textSize="17sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/cartProductImage"
+        app:layout_constraintTop_toBottomOf="@+id/cartProductTitle" />
+
+    <EditText
+        android:id="@+id/cartProductQuantity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="تعداد"
+        android:inputType="number"
+        android:padding="8dp"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.906"
+        android:fontFamily="@font/pb"
+        app:layout_constraintStart_toEndOf="@+id/cartProductImage"
+        app:layout_constraintTop_toBottomOf="@+id/cartProductPrice"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/delete_itemCart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:backgroundTint="@android:color/holo_red_dark"
+        android:fontFamily="@font/pb"
+        android:text="حذف کالا"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/cartProductImage" />
+
+    <Button
+        android:id="@+id/confirmQuantityButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:backgroundTint="@android:color/holo_green_dark"
+        android:fontFamily="@font/pb"
+        android:text="تایید تعداد"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/delete_itemCart" />
+
+    <!-- تصویر محصول -->
+</androidx.constraintlayout.widget.ConstraintLayout>

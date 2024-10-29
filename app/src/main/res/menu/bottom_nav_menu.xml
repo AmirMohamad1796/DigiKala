@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_profile"
+        android:icon="@drawable/user"
+        android:title="دیجی‌کالای من" />
+
+    <item
+        android:id="@+id/nav_categories"
+        android:icon="@drawable/sort"
+        android:title="دسته‌بندی‌ها" />
+
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/home"
+        android:title="خانه" />
+
+    <item
+        android:id="@+id/nav_mag"
+        android:icon="@drawable/ic_category_4"
+        android:title="مگنت" />
+
+    <item
+        android:id="@+id/nav_cart"
+        android:icon="@drawable/cart"
+        android:title="سبد خرید" />
+
+</menu>

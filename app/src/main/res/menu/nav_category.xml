@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/goods_Digital"
+        android:icon="@drawable/user"
+        android:title="کالای دیجیتال" />
+
+    <item
+        android:id="@+id/goods_Stationery"
+        android:icon="@drawable/sort"
+        android:title="لوازم تحریر" />
+
+    <item
+        android:id="@+id/goods_clothing"
+        android:icon="@drawable/home"
+        android:title="پوشاک" />
+
+    <item
+        android:id="@+id/goods_Sports_equipment"
+        android:icon="@drawable/ic_launcher_background"
+        android:title="لوازم ورزشی" />
+    <item android:title="Item" />
+    <item android:title="Item" />
+    <item android:title="Item" />
+    <item android:title="Item" />
+    <item android:title="Item" />
+    <item android:title="Item" />
+    <item android:title="Item" />
+    <item
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="Item" />
+    <item
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="Item" />
+    <item
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="Item" />
+
+</menu>
